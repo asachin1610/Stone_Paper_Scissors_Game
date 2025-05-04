@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #fff;
+  }
+  
+  h1 {
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;
+  }
+  
+  .choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .choice:hover {
+    cursor: pointer;
+    background-color: #081b31;
+    
+  }
+
+  img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+  }
+  
+  .score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    gap: 5rem;
+  }
+
+  #comp-score:hover{
+    background-color: rgb(28, 107, 28);
+    cursor: pointer;
+    border-radius: 1rem;
+  }
+  #user-score:hover{
+    background-color: rgb(28, 107, 28);
+    cursor: pointer;
+    border-radius: 1rem;
+  }
+  
+  #user-score,
+  #comp-score {
+    font-size: 4rem;
+  }
+  
+  .msg-container {
+    margin-top: 3rem;
+  }
+  
+  #msg {
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+  #msg:hover {
+    background-color: rgb(25, 157, 233);
+    cursor: pointer;
+  }
+
+  .below {
+    margin-top: 2rem;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding: 10px 0;
+    border-radius: 1rem;
+  }
+
+  #para {
+    background-color: rgb(50, 42, 97);
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    display: inline-block;
+    animation: scroll-left 50s linear infinite;
+    border-radius: 1rem;
+  }
+
+  #para:hover {
+    background-color: rgb(28, 107, 28);
+    cursor: pointer;
+  }
+
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  #you:hover{
+    background-color: rgb(28, 107, 28);
+    cursor: pointer;
+    border-radius: 1rem;
+  }
+  #comp:hover{
+    background-color: rgb(28, 107, 28);
+    cursor: pointer;
+    border-radius: 1rem;
+  }
